@@ -1,0 +1,38 @@
+.home-section {
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .contact-button {
+    border: none;
+    background: #184b96;
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 10px;
+    float: left;
+    color: #ffffff;
+    transition: 0.2s;
+  }
+  
+  .contact-button:hover {
+    background-color: dimgrey;
+  }

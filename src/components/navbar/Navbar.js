@@ -11,16 +11,14 @@ export const NavLogo = styled(Link)`
         height: 90%; /* Adjust the height as needed */
         margin-right: 1rem; /* Add margin to separate the image from other elements */
     }
-
 `;
+
 export const Nav = styled.nav`
     background: #184b96;
-    height: 70px;
+    height: 75px;
     display: flex;
-    justify-content: space-between;
     z-index: 12;
     /* Third Nav */
-    justify-content: flex-start; 
 `;
 
 export const NavLink = styled(Link)`
@@ -38,6 +36,16 @@ export const NavLink = styled(Link)`
     }
 `;
 
+export const NavMenu = styled.div`
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    transform: translateX(-25%);
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+`;
+
 export const Bars = styled(FaBars)`
     display: none;
     color: #808080;
@@ -49,20 +57,6 @@ export const Bars = styled(FaBars)`
         transform: translate(-100%, 75%);
         font-size: 1.8rem;
         cursor: pointer;
-    }
-`;
-
-export const NavMenu = styled.div`
-    display: flex;
-    align-items: center;
-    margin-right: -24px;
-    /* Second Nav */
-    /* margin-right: 24px; */
-    /* Third Nav */
-    /* width: 100vw;
-  white-space: nowrap; */
-    @media screen and (max-width: 768px) {
-        display: none;
     }
 `;
 
