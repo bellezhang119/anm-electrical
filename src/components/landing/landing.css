@@ -1,4 +1,4 @@
-.home-section {
+.landing {
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -6,7 +6,7 @@
     position: relative;
   }
   
-  .content {
+  .landing-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -14,7 +14,7 @@
     text-align: center;
   }
   
-  .title {
+  .landing-title {
     font-size: 60px;
     font-weight: 800;
     margin-bottom: 1rem;
@@ -23,7 +23,7 @@
   
   .contact-button {
     border: none;
-    background: #184b96;
+    background: #198ccb;
     padding: 20px 30px;
     font-size: 24px;
     font-weight: 900;

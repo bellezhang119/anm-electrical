@@ -1,12 +1,14 @@
 import React from 'react';
 import Navbar from '../components/navbar';
-import HomeSection from '../components/homeSection/HomeSection';
+import Landing from '../components/landing/landing';
+import About from '../components/about/about'
  
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <HomeSection />
+      <Landing />
+      <About />
     </div>
   );
 };

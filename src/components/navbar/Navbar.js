@@ -8,26 +8,27 @@ export const NavLogo = styled(Link)`
     justify-content: flex-start; /* Align to the left */
     padding: 0 1rem;
     img {
-        height: 90%; /* Adjust the height as needed */
-        margin-right: 1rem; /* Add margin to separate the image from other elements */
+        height: 60%; /* Adjust the height as needed */
+        margin-right: 2rem; /* Add margin to separate the image from other elements */
     }
 `;
 
 export const Nav = styled.nav`
-    background: #184b96;
-    height: 75px;
+    background: #ffffff;
+    height: 60px;
     display: flex;
-    z-index: 12;
-    /* Third Nav */
+    position: sticky;
+    z-index: 100;
+    top: 0;
 `;
 
 export const NavLink = styled(Link)`
-    color: #ffffff;
+    color: #198ccb;
     display: flex;
     align-items: center;
     text-decoration: none;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
@@ -40,8 +41,8 @@ export const NavMenu = styled.div`
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    transform: translateX(-25%);
-    @media screen and (max-width: 768px) {
+    transform: translateX(-20%);
+    @media screen and (max-width: 600px) {
         display: none;
     }
 `;
@@ -49,7 +50,7 @@ export const NavMenu = styled.div`
 export const Bars = styled(FaBars)`
     display: none;
     color: #808080;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 600px) {
         display: block;
         position: absolute;
         top: 0;
@@ -63,8 +64,7 @@ export const Bars = styled(FaBars)`
 export const Dropdown = styled.div`
     display: flex;
     flex-direction: column;
-    position: absolute;
-    background-color: #184b96;
+    background-color: #ffffff;
     top: 70px; // Height of the Nav
     left: 0;
     width: 100%;
