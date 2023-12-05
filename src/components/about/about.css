@@ -24,12 +24,16 @@
   float: right;
   background-color: #198ccb;
   width: 30%;
-  height: 20%;
-  margin: 3rem 6rem 1rem;
-  padding: 4rem;
+  height: 50%;
+  margin-top: 3rem;
+  margin-right: 10%;
+  margin-bottom: 3rem;
+  padding: 3%;
   @media screen and (max-width: 800px) {
     float: none;
     margin: auto;
+    padding: 5%;
+    width: 70%;
 }
 
   .title {
@@ -50,10 +54,12 @@
   float: left;
   width: 20%;
   height: 20%;
-  margin: 3rem 6rem 1rem;
+  margin-top: 3rem;
+  margin-left: 10%;
+  margin-bottom: 3rem;
   padding-left: 4rem;
   padding-right: 2rem;
   @media screen and (max-width: 800px) {
-
+    display: none;
 }
 }

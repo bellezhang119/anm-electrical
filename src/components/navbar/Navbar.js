@@ -15,10 +15,10 @@ export const NavLogo = styled(Link)`
 
 export const Nav = styled.nav`
     background: #ffffff;
-    height: 60px;
+    height: 70px;
     display: flex;
     position: sticky;
-    z-index: 100;
+    z-index: 10;
     top: 0;
 `;
 
@@ -30,6 +30,7 @@ export const NavLink = styled(Link)`
     font-weight: 700;
     font-size: 22px;
     padding: 0 1rem;
+    margin-bottom: 1rem;
     height: 100%;
     cursor: pointer;
     &.active {
@@ -41,16 +42,38 @@ export const NavMenu = styled.div`
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    transform: translateX(-20%);
-    @media screen and (max-width: 600px) {
+    transform: translateX(0%);
+    @media screen and (max-width: 800px) {
         display: none;
     }
 `;
 
+export const NavNumber = styled.button`
+    background: #ffffff;
+    display: flex;
+    margin: 0 auto;
+    color: #198ccb;
+    align-items: center;
+    font-weight: 700;
+    border: 2px solid #198ccb;
+    margin: 1rem;
+    margin-right: 2rem;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 7px;
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+    :hover {
+        color: dimgrey;
+        border: 2px solid dimgrey;
+    }
+`
+
 export const Bars = styled(FaBars)`
     display: none;
     color: #808080;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 800px) {
         display: block;
         position: absolute;
         top: 0;
@@ -65,11 +88,15 @@ export const Dropdown = styled.div`
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    top: 70px; // Height of the Nav
+    position: sticky;
+    top: 70px; 
     left: 0;
     width: 100%;
-    z-index: 11;
+    z-index: 10;
     display: ${(props) => (props.isOpen ? 'flex' : 'none')};
+    @media screen and (min-width: 801px) {
+        display: none;
+      }
 `;
 
 export const NavBtn = styled.nav`
@@ -79,7 +106,7 @@ export const NavBtn = styled.nav`
     /* Third Nav */
     /* justify-content: flex-end;
   width: 100vw; */
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
         display: none;
     }
 `;
