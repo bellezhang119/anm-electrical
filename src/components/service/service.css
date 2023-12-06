@@ -1,0 +1,15 @@
+.service {
+    margin: 1rem;
+}
+
+.service-line {
+  margin: 2rem 2rem 2rem;
+}
+
+.service-title {
+  color: #198ccb;
+  font-weight: 700;
+  font-size: 34px;
+  margin: 2rem 2rem 2rem;
+}
+

@@ -8,7 +8,7 @@ export const NavLogo = styled(Link)`
     justify-content: flex-start; /* Align to the left */
     padding: 0 1rem;
     img {
-        height: 60%; /* Adjust the height as needed */
+        height: 70%; /* Adjust the height as needed */
         margin-right: 2rem; /* Add margin to separate the image from other elements */
     }
 `;
@@ -33,9 +33,6 @@ export const NavLink = styled(Link)`
     margin-bottom: 1rem;
     height: 100%;
     cursor: pointer;
-    &.active {
-        color: #838485;
-    }
 `;
 
 export const NavMenu = styled.div`

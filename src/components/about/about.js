@@ -11,7 +11,7 @@ const About = () => {
         <div style={{ flex: 1, backgroundColor: "#838485", height: "3px" }} />
       </div>
 
-      <div className="about-content">
+      <div>
         <img
           src={lightBulbImage}
           className="about-image"

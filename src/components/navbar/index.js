@@ -12,6 +12,7 @@ import {
 import logoImage from "../../assets/logo.jpg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { PiCopySimpleLight } from "react-icons/pi";
 
 const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -44,27 +45,27 @@ const Navbar = () => {
         </NavLogo>
         <Bars onClick={toggleDropdown} />
         <NavMenu>
-          <NavLink to="/" activeStyle>
+          <NavLink>
             About
           </NavLink>
-          <NavLink to="/" activeStyle>
+          <NavLink>
             Our Services
           </NavLink>
-          <NavLink to="/" activeStyle>
+          <NavLink>
             Contact Us
           </NavLink>
         </NavMenu>
-        <NavNumber onClick={copyToClipboard}>111 111 1111</NavNumber>
+        <NavNumber onClick={copyToClipboard}><PiCopySimpleLight />111 111 1111</NavNumber>
         <ToastContainer />
       </Nav>
       <Dropdown isOpen={isDropdownOpen}>
-        <NavLink to="/" activeStyle onClick={toggleDropdown}>
+        <NavLink onClick={toggleDropdown}>
           About
         </NavLink>
-        <NavLink to="/" activeStyle onClick={toggleDropdown}>
+        <NavLink onClick={toggleDropdown}>
           Our Services
         </NavLink>
-        <NavLink to="/" activeStyle onClick={toggleDropdown}>
+        <NavLink onClick={toggleDropdown}>
           Contact Us
         </NavLink>
       </Dropdown>
