@@ -40,7 +40,7 @@ export const NavMenu = styled.div`
     margin: 0 auto;
     justify-content: center;
     transform: translateX(0%);
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 820px) {
         display: none;
     }
 `;
@@ -58,7 +58,7 @@ export const NavNumber = styled.button`
     font-size: 22px;
     cursor: pointer;
     border-radius: 7px;
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 820px) {
         display: none;
     }
     :hover {
@@ -70,7 +70,7 @@ export const NavNumber = styled.button`
 export const Bars = styled(FaBars)`
     display: none;
     color: #808080;
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 820px) {
         display: block;
         position: absolute;
         top: 0;
@@ -91,7 +91,7 @@ export const Dropdown = styled.div`
     width: 100%;
     z-index: 10;
     display: ${(props) => (props.isOpen ? 'flex' : 'none')};
-    @media screen and (min-width: 801px) {
+    @media screen and (min-width: 820px) {
         display: none;
       }
 `;
@@ -103,7 +103,7 @@ export const NavBtn = styled.nav`
     /* Third Nav */
     /* justify-content: flex-end;
   width: 100vw; */
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 820px) {
         display: none;
     }
 `;

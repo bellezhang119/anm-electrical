@@ -24,11 +24,12 @@
   margin-bottom: 3rem;
   padding: 3%;
   @media screen and (max-width: 800px) {
-    float: right;
+    float: none;
     margin: auto;
     padding: 5%;
     width: 70%;
-}
+  
+  }
 
   .title {
     color: #ffffff;

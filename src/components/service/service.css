@@ -1,5 +1,5 @@
 .service {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .service-line {
@@ -13,3 +13,13 @@
   margin: 2rem 2rem 2rem;
 }
 
+.service-content {
+  text-align: center;
+
+  .reusable-card {
+    margin: 2rem;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 100px;
+  }
+}
