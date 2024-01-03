@@ -1,0 +1,88 @@
+.contact {
+  margin: 1rem;
+}
+
+.contact-line {
+  margin: 2rem 2rem 2rem;
+}
+
+.contact-title {
+  color: #198ccb;
+  font-weight: 700;
+  font-size: 34px;
+  margin: 2rem 2rem 2rem;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+  background-color: #198ccb;
+  color: white;
+  width: 30%;
+  height: 50%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 3%;
+  border-radius: 4px;
+  @media screen and (max-width: 800px) {
+    float: none;
+    margin: auto;
+    padding: 5%;
+    width: 70%;
+  }
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.input-subject,
+.input-email,
+.textarea-message {
+  width: 100%;
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #198ccb;
+  border-radius: 4px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.textarea-message {
+  height: 200px;
+}
+
+input[type="submit"] {
+  background-color: #ffb028;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #fb9d00;
+}
+
+.or {
+  font-size: 60px;
+  font-weight: 700;
+  color: #198ccb;
+  float: center;
+}

@@ -17,6 +17,7 @@
 .about-text {
   float: right;
   background-color: #198ccb;
+  border-radius: 4px;
   width: 30%;
   height: 50%;
   margin-top: 3rem;
